@@ -18,7 +18,7 @@ jobs:
         run: chmod +x gradlew
       - name: Start SUT
 
-        run: java -jar ./artifacts/app-ibank-build-for testers.jar -P:profile=test &
+        run: java -jar ./artifacts/app-ibank-build-for-testers.jar &
       - name: Build with Gradle
         # Запускаем автотесты
         # Для проектов на базе Selenide необходимо добавить параметр для запуска браузера
