@@ -44,6 +44,6 @@ public class DataHelper {
     @Value
     public static class AuthInfo {
         String login;
-        String paswoord;
+        String passwoord;
     }
 }

@@ -12,7 +12,7 @@ public class LoginPage {
 
     public VerificationPage validLogin(DataHelper.AuthInfo info) {
         loginField.setValue(info.getLogin());
-        passwordField.setValue(info.getPaswoord());
+        passwordField.setValue(info.getPasswoord());
         loginButton.click();
         return new VerificationPage();
     }
